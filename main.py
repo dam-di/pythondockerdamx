@@ -11,6 +11,7 @@ s3 = boto3.client(
     aws_secret_access_key="supersecurepass"
 )
 
+
 BUCKET_NAME = "imagenes"
 EXTENSIONES_PERMITIDAS = {".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff"}
 
